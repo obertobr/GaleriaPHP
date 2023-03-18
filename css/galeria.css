@@ -1,0 +1,91 @@
+@keyframes menu {
+    from {
+    } to {
+        background-color: rgb(201, 5, 5);
+        color: white;
+    }
+}
+
+body {
+    background-color: rgb(56, 173, 241);
+}
+
+#cabecalho {
+    margin: 0px;
+    text-align: center;
+    font-size: 5em;
+    font-family: arial;
+    font-weight: 900;
+    padding: 20px;
+    color: rgb(224, 223, 220);
+    background: rgb(62, 146, 230);
+    letter-spacing: 0.1em;
+    text-shadow: rgb(255, 255, 255) 0px -1px 0px, rgb(46, 46, 46) 0px 1px 0px, rgb(44, 44, 44) 0px 2px 0px, rgb(42, 42, 42) 0px 3px 0px, rgb(40, 40, 40) 0px 4px 0px, rgb(38, 38, 38) 0px 5px 0px, rgb(36, 36, 36) 0px 6px 0px, rgb(34, 34, 34) 0px 7px 0px, rgb(32, 32, 32) 0px 8px 0px, rgb(30, 30, 30) 0px 9px 0px, rgb(28, 28, 28) 0px 10px 0px, rgb(26, 26, 26) 0px 11px 0px, rgb(24, 24, 24) 0px 12px 0px, rgb(22, 22, 22) 0px 13px 0px, rgb(20, 20, 20) 0px 14px 0px, rgb(18, 18, 18) 0px 15px 0px, rgba(0, 0, 0, 0.9) 0px 22px 30px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+#menu {
+    background-color: rgb(35, 131, 226);
+    height: 40px;
+    margin-left: -8px;
+    margin-right: -8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link {
+    font-size: 1.5em;
+    font-family: arial;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#modulo {
+    background-color: rgb(5, 90, 201);
+    color: black;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 7px;
+    left: 10px;
+}
+#modulo:hover {
+    animation: menu 0.5s both;
+}
+
+img {
+    height: 300px;
+}
+
+#jogos div {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 20px 10px 20px 10px ;
+}
+
+#jogos span {
+    display: unset;
+    text-align: left;
+}
+
+
+#upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+div[style ^= "t"] a {
+    display: none;
+}
